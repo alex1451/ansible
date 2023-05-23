@@ -2,7 +2,7 @@
 - hosts: all
   become: true
   vars:
-    created_username: druid
+    created_username: username
 
   tasks:
     - name: Install aptitude
